@@ -1,7 +1,31 @@
+/*External CSS*/
+/*Body is a CSS Selector*/
+/*{} indicates a CSS Declaration*/
+body{
+  /*property:value; is a CSS Rule*/
+  margin:0;
+}
 
+/*HEADER*/
+header{
+  border-bottom: 5px solid black;
+}
+ul{
+  display: flex;
+  
+}
+
+/*MAIN*/
 
 .catimage{
   max-width: 100px;
   max-height: 100px;
   
 }
+
+
+
+/*FOOTER*/
+
+
+/*MEDIA QUERY*/
