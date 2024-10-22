@@ -10,21 +10,8 @@ body{
 header{
   border-bottom: 5px solid black;
 }
-ul{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: end;
-  list-style-type: none
-  padding: 0 10px ;
-  gap: 1.25em;
-}
 
 /*MAIN*/
-
-.container{
-  max-width: 300vh;
-}
 
 .catimage{
   max-width: 100px;
