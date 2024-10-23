@@ -15,11 +15,16 @@ header{
 
 .catimage{
   max-width: 100px;
-  max-height: 100px;
-  
 }
 
+.cardimg{
+  max-width: 300px;
+}
 
+.card{
+  display: flex;
+  max-width: 300em;
+}
 
 /*FOOTER*/
 
