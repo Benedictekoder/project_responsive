@@ -8,13 +8,37 @@ body{
 
 /*HEADER*/
 header{
-  border-bottom: 5px solid black;
+  border-bottom: 3px solid black;
+  padding: 10px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 100px;
 }
 
 /*MAIN*/
 
+.firstonpage{
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: 3px solid gray;
+}
+
 .catimage{
-  max-width: 100px;
+  max-width: 300px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+h2{
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
 }
 
 .cardimg{
@@ -23,10 +47,38 @@ header{
 
 .card{
   display: flex;
-  max-width: 300em;
+  flex-direction: row;
+  border: 1px solid black;
+  padding: 5px;
+  /*her jeg må sette in % størrelse mellom bilde og tekst*/
+}
+
+.projectcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  gap: 5px;
+  padding: 30px;
+  /*må også få bildekanten fra skjermkanten*/
+
+
 }
 
 /*FOOTER*/
-
+footer{
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  border-top: 3px solid black;
+}
 
 /*MEDIA QUERY*/
+
+@media(max-width: 426px;) {
+  body{
+   flex-direction: column;
+   background-color: lightseagreen;
+  }
+  
+}
